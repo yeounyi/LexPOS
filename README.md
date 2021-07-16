@@ -21,12 +21,12 @@ python3 generate_slogans.py -keywords cake
 <br>
 
 ### Pretrained Models 
-- LexPOSBart
-  - Trained with 2 lexical constraints 
-  - Trained with lexical constraints with fixed order 
-- LexPOSBart_multi
-  - Trained with 2-4 lexical constraints
-  - Trained with shuffled lexical constraints   
+1. `LexPOSBart`
+- Trained with 2 lexical constraints 
+- Trained with lexical constraints with fixed order 
+2. `LexPOSBart_multi`
+- Trained with 2-4 lexical constraints
+- Trained with shuffled lexical constraints   
 
 ### Citation
 ```
