@@ -20,7 +20,7 @@ python3 generate_slogans.py -keywords cake
 <img src="https://github.com/yeounyi/yeounyi.github.io/blob/main/assets/img/model_structure.JPG?raw=true" width=400>
 <br>
 
-## Pretrained Models 
+### Pretrained Models 
 - LexPOSBart
   - Trained with 2 lexical constraints 
   - Trained with lexical constraints with fixed order 
