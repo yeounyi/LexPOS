@@ -10,7 +10,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 tokenizer = BartTokenizer.from_pretrained("facebook/bart-base")
 tokenizer.add_tokens('<name>')
 
-pos_tokenizer = BartTokenizer(vocab_file='/home/yeoun/BART/POSvocab.json', merges_file='/home/yeoun/BART/merges.txt')
+pos_tokenizer = BartTokenizer(vocab_file='POSvocab.json', merges_file='merges.txt')
 
 def generate_slogans(input_words, model_path, pos_inputs=None, num_beams=1, temperature=1.0):
     # load model
