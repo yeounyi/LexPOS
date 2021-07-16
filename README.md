@@ -9,8 +9,8 @@ cd LexPOS
 # generate slogans 
 python3 generate_slogans.py -keywords cake
 ```
-- `-keywords`: Keywords that you want to be included in slogans. You can enter multiple keywords, delimited by comma(,)
--  `-pos_inputs`: You can either specify the particular list of POS tags delimited by comma(,), or the model will generate slogans with the most frequent syntax used in corpus 
+- `-keywords`: Keywords that you want to be included in slogans. You can enter multiple keywords, delimited by comma
+-  `-pos_inputs`: You can either specify the particular list of POS tags delimited by comma, or the model will generate slogans with the most frequent syntax used in corpus 
 - `-num_beams`: Number of beams for beam search. Default to 1, meaning no beam search.
 - `-temperature`: The value used to module the next token probabilities. Default to 1.0.
 - `-model_path`: Path to the pretrained model
