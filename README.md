@@ -28,6 +28,9 @@ python3 generate_slogans.py -keywords cake
 - Trained with 2-4 lexical constraints
 - Trained with shuffled lexical constraints   
 
+### References
+https://github.com/aparrish/phonetic-similarity-vectors/
+
 ### Citation
 ```
 @misc{yi2021lexpos,
