@@ -17,7 +17,7 @@ python3 generate_slogans.py -keywords cake
 
 ### Model Architecture
 <br>
-<img src="https://github.com/yeounyi/yeounyi.github.io/blob/main/assets/img/model_structure.JPG?raw=true" width=400>
+<img src="https://github.com/yeounyi/LexPOS/blob/main/assets/graph.png" width=400>
 <br>
 
 ### Pretrained Models 
