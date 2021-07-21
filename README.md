@@ -63,7 +63,6 @@ python3 generate_slogans_with_phonetic_constraints.py -keywords cake -num_beams 
 ### Model Architecture
 <br>
 <img src="https://github.com/yeounyi/LexPOS/blob/main/assets/adj_graph.png" width=400>
-<br>
 
 ### Pretrained Models 
 1. `LexPOSBart`
