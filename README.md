@@ -9,7 +9,7 @@ To implement the linguistic features of slogans such as repetition, here's a seq
 git clone https://github.com/yeounyi/LexPOS
 cd LexPOS
 # generate slogans 
-python3 generate_slogans.py -keywords fashion,brand -num_beams 3 -temperature 1.2
+python3 generate_slogans.py -keywords cake -num_beams 3 -temperature 1.2
 ```
 - `-keywords`: Keywords that you want to be included in slogans. You can enter multiple keywords, delimited by comma
 -  `-pos_inputs`: You can either specify the particular list of POS tags delimited by comma, or the model will generate slogans with the most frequent syntax used in corpus. POS tags should follow the format of [Universal POS tags](https://universaldependencies.org/u/pos/).  
@@ -39,7 +39,7 @@ python3 generate_slogans.py -keywords fashion,brand -num_beams 3 -temperature 1.
 git clone https://github.com/yeounyi/LexPOS
 cd LexPOS/Phonetic_Constraints_During_Inference
 # generate slogans 
-python3 generate_slogans_with_phonetic_constraints.py -keywords cake -num_beams 3 -temperature 1.2 -alpha 10
+python3 generate_slogans_with_phonetic_constraints.py -keywords vacation,island -num_beams 3 -temperature 1.2 -alpha 10
 ```
 - `-keywords`: Keywords that you want to be included in slogans. You can enter multiple keywords, delimited by comma
 -  `-pos_inputs`: You can either specify the particular list of POS tags delimited by comma, or the model will generate slogans with the most frequent syntax used in corpus. POS tags should follow the format of [Universal POS tags](https://universaldependencies.org/u/pos/).  
