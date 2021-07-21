@@ -38,6 +38,8 @@ python3 generate_slogans.py -keywords cake -num_beams 3 -temperature 1.2
 # clone this repo
 git clone https://github.com/yeounyi/LexPOS
 cd LexPOS/Phonetic_Constraints_During_Inference
+# generate score matrix representing phonetic similarity of each token
+python3 score_matrix.py
 # generate slogans 
 python3 generate_slogans_with_phonetic_constraints.py -keywords vacation,island -num_beams 3 -temperature 1.2 -alpha 10
 ```
