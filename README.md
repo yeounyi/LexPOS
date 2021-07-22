@@ -1,5 +1,5 @@
-## Generating Slogans with Linguistic Constraints
-To implement the linguistic features of slogans such as repetition, here's a sequence-to-sequence transformer model <b>generating slogans with lexical and POS constraints</b>. You can specify certain keywords to be included and the desired syntax by list of POS tags. LexPOS finds words phonetically and semantically similar with user keywords and generates slogans including these words. The generated slogans also follow the given syntax. Furthermore, you can apply additional <b>phonetic constraints </b> implemented by adjusted logits distribution. 
+## Generating Slogans with Linguistic Features
+To implement the linguistic features of slogans such as repetition, here's a sequence-to-sequence transformer model that <b> generates slogans with phonetic and structural repetition</b>. For phonetic repetition, our model searches for phonetically similar words with user keywords. Both the sound-alike words and user keywords become the lexical constraints while generating slogans. During inference, we adjust the logits distribution to implement further phonetic constraints. For structural repetition, we use POS constraints. Users can specify any repeated phrase structure by POS tags.
 
 
 ### 1. Generating slogans with lexical, POS constraints 
